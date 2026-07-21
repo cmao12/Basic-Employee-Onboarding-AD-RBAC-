@@ -30,13 +30,13 @@ Created an Active Directory environment for NMG using a Windows Server 2022 virt
 * Documented full incident resolution with root cause analysis
 
 ## Repository Structure:
-Folders created:
+Folders created (3):
 
 Documentation 
-  * Domain Config File
-  * Security Group Doc
-  * User List Documentation
-  * RBAC-Structure.md
+  - Domain Config File
+  - Security Group Doc
+  - User List Documentation
+  - RBAC-Structure.md
     
 Screenshots
 
