@@ -25,5 +25,5 @@ Created an Active Directory environment for NMG using a Windows Server 2022 virt
 ## Key Accomplishments
 * Built NMG.com domain from scratch
 * Created Organizational Units and Security Group Policies within those OUs
-* Added users to the appropriate OU and Group policies based on their roles
+* Added 15 users to the appropriate OU and Group policies based on their roles
 * Added a user in the correct OU and group to access the correct systems and applications
