@@ -1,0 +1,18 @@
+Jane Cooper is currently in the Operations OU. She should be in the HR OU.
+Is she a member of HR-Users? No
+Is she a member of any group she should not be in? Yes
+Jane Cooper is currently a member of: Operation. She should be a member of: HR.
+
+
+Ticket number: NMG-0047
+Affected user: Jane Cooper (jcooper@NMG.com)
+Issue reported: Unable to access HR shared resources. Desktop policies and mapped drives differ from teammates.
+
+Root cause: Jane was placed in the Operations OU and group policy accidently when she was hired, thus only giving her access to Operations systems and access instead of HR access.
+
+Fix applied: Removed her from the Operations OU and group policy and placed her in the HR OU and group policy.
+
+Verification: Issue was resolved by reviewing the OU and group policy lists and took screenshots.
+
+Date resolved: 7/20/2026
+Resolved by: Christopher Mao
