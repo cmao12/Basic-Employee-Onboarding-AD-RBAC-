@@ -1,18 +1,18 @@
 # Basic-Employee-Onboarding-AD-RBAC-
 Active Directory infrastructure rebuild for a fictional company called “Northstar Medical Group”. Includes domain setup, organizational structure, user provisioning, RBAC implementation, and incident resolution.
+User accounts were being created manually without a consistent naming standard, organized OU structure, or reliable group assignments. For a healthcare organization with more than 200 employees, this created security gaps and potential HIPAA compliance risks.
 
 ## Solution Overview
-[Provide 4 to 6 sentences describing what you built and how it solved the problem. Cover the new domain creation, the structural OU design, the security groups, the flat RBAC model, and how user provisioning was secured.]
+Created an Active Directory environment for NMG using a Windows Server 2022 virtual machine and configured the server as the domain controller. Within AD Users and Computers, I created 4 different OUs (Finance, HR, IT and Operations) and Security Groups within those OUs. Added 15 employees to their respective OUs based on their role and job titles. Replaced the flat RBAC model with role-based access by department and secured provisioning through standardized accounts, proper OU placement, and least-privilege group assignments.
 
 ## Video Walkthrough
 [Add your video walkthrough link placeholder here. You will record this tomorrow and update this link so visitors can see a live demonstration of your lab environment.]
 
 ## Tools Used
-* Windows Server
+* Windows Server 2022
 * Active Directory Domain Services
 * VirtualBox
-* UTM
-* RBAC
+* RBAC (Role Based Access Control)
 * GitHub
 
 ## Project Timeline
@@ -24,5 +24,6 @@ Active Directory infrastructure rebuild for a fictional company called “Norths
 
 ## Key Accomplishments
 * Built NMG.com domain from scratch
-* [Add your second key accomplishment here]
-* [Add your third key accomplishment here]
+* Created Organizational Units and Security Group Policies within those OUs
+* Added users to the appropriate OU and Group policies based on their roles
+* Added a user in the correct OU and group to access the correct systems and applications
