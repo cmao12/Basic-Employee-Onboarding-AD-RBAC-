@@ -1,5 +1,4 @@
 # Basic-Employee-Onboarding-AD-RBAC-
-Active Directory infrastructure rebuild for a fictional company called “Northstar Medical Group”. Includes domain setup, organizational structure, user provisioning, RBAC implementation, and incident resolution.
 User accounts were being created manually without a consistent naming standard, organized OU structure, or reliable group assignments. For a healthcare organization with more than 200 employees, this created security gaps and potential HIPAA compliance risks.
 
 ## Solution Overview
