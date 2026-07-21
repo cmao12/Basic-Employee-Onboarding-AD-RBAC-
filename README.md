@@ -31,6 +31,15 @@ Created an Active Directory environment for NMG using a Windows Server 2022 virt
 
 ## Repository Structure:
 Folders created:
-Documentation (text files of what was created)
+Documentation 
+  -Domain Config File
+  -Security Group Doc
+  -User List Documentation
+  -RBAC-Structure.md
 Screenshots
+  -Day 1 Screenshots
+  -OUs and Security Grps Screenshots
+  -Users and group members list
+  -Jane's Incident
 Incident-Reports
+  -NMG-0047-Resolution.txt
