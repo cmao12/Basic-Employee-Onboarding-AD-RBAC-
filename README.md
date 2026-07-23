@@ -5,7 +5,7 @@ At NorthStar Medical Group, user accounts were being created manually without a 
 Created an Active Directory environment for NMG using a Windows Server 2022 virtual machine and configured the server as the domain controller. Within AD Users and Computers, I created 4 different OUs (Finance, HR, IT and Operations) and Security Groups within those OUs. Added 15 employees to their respective OUs based on their role and job titles. Replaced manual user input with role-based access by department and secured provisioning through standardized accounts, proper OU placement, and least-privilege group assignments.
 
 ## Video Walkthrough
-[Add your video walkthrough link placeholder here. You will record this tomorrow and update this link so visitors can see a live demonstration of your lab environment.]
+https://www.loom.com/share/985a3e72789e473fa7bb4975623cc046
 
 ## Tools Used
 * Windows Server 2022
