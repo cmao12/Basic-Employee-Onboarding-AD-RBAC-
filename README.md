@@ -1,5 +1,5 @@
 # Basic-Employee-Onboarding-AD-RBAC-
-User accounts were being created manually without a consistent naming standard, organized OU structure, or reliable group assignments. For a healthcare organization with more than 200 employees, this created security gaps and potential HIPAA compliance risks.
+At NorthStar Medical Group, user accounts were being created manually without a consistent naming standard, organized OU structure, or reliable group assignments. For a healthcare organization with more than 200 employees, this created security gaps and potential HIPAA compliance risks.
 
 ## Solution Overview
 Created an Active Directory environment for NMG using a Windows Server 2022 virtual machine and configured the server as the domain controller. Within AD Users and Computers, I created 4 different OUs (Finance, HR, IT and Operations) and Security Groups within those OUs. Added 15 employees to their respective OUs based on their role and job titles. Replaced the flat RBAC model with role-based access by department and secured provisioning through standardized accounts, proper OU placement, and least-privilege group assignments.
